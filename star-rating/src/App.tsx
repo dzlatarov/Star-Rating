@@ -1,12 +1,11 @@
 import './App.css'
+import { Star } from './components/star/Star'
 
 function App() {
 
   return (
     <>
-      <div>
-        Hello
-      </div>
+      <Star numberOfStars={10} />
     </>
   )
 }
